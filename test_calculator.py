@@ -8,7 +8,7 @@ class TestCalculator:
 
     def test_add(self):
         """测试加法"""
-        assert add(1, 2) == 3
+        assert add(1, 2) == 4  # 故意写错，让测试失败
         assert add(-1, 1) == 0
         assert add(0, 0) == 0
 
